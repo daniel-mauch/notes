@@ -59,11 +59,11 @@
     float: left;
     h2 {
       @include bold_font;
-      color: white;
+      color: black;
       margin-bottom: 0;
     }
     p {
-      color: rgba(250, 250, 250, 0.4);
+      color: black;
     }
   }
 }

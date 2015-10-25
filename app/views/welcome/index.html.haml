@@ -1,1 +1,32 @@
-%h1 Was geht ab Bitches - Welcome Controller Placeholder
+#banner
+  .banner_content
+    %h1 Notes
+    %p Nie mehr eine Idee vergessen.
+    %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "Feel free to use my website to make notes."
+    %p.name - Daniel Mauch
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST
+      .callout
+        %h2 Hallo
+        %p TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST
+      .callout
+        %h2 Ciao
+        %p TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST TESTTESTTESTTESTTEST
+
+#bottom_cta
+  .wrapper
+    %h2 Hi Guys
+    %p I want you to sign up !
+    %button= link_to "Click me !", new_user_registration_path
+
+%footer
+  %p &copy; Daniel Mauch
