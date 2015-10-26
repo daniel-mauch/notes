@@ -67,6 +67,7 @@
       margin-bottom: 0;
     }
     p {
+      @include bold_font;
       color: black;
     }
   }
